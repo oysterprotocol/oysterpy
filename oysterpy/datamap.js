@@ -6,6 +6,8 @@ import converter from 'iota.lib.js/converter'
 
 const hashlib = { sha256, sha512, sha384 }
 
+
+
 export function get_hashchain (startingHash, n) {
   const hashchain = [startinghash]
   let nextHash = startingHash
